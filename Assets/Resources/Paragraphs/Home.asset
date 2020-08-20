@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b83b980dd3ab7d442a5567aeea111c58, type: 3}
+  m_Name: Home
+  m_EditorClassIdentifier: 
+  paragraphBackground: {fileID: 21300000, guid: d1360830b65c15244b060683fc310a05,
+    type: 3}
+  paragraphId: 0
+  phrases:
+  - text: "\u041D\u0430\u0441\u0442\u0443\u043F\u0438\u043B \u0432\u0435\u0447\u0435\u0440"
+    character: {fileID: 0}
+    type: 0
+  - text: "\u041C\u044B \u0441 \u041D\u0430\u0441\u0442\u0435\u0439 \u0441\u043E\u0431\u0438\u0440\u0430\u043B\u0438\u0441\u044C
+      \u043F\u043E\u0439\u0442\u0438 \u0432 \u043A\u0438\u043D\u043E"
+    character: {fileID: 0}
+    type: 0
+  endChoises:
+  - text: "\u0412\u044B\u0439\u0442\u0438 \u043A \u041D\u0430\u0441\u0442\u0435"
+    nextParagraphId: 1
+  - text: "\u041E\u0441\u0442\u0430\u0442\u044C\u0441\u044F \u0434\u043E\u043C\u0430"
+    nextParagraphId: 2
